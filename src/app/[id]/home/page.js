@@ -24,7 +24,7 @@ function ClientHome() {
 
   // 변경된 설정으로 쿠키를 새로 설정합니다.
   const updatedCookieValue = `${existingCookie}; SameSite=None; Secure`;
-  document.cookie = `myCookie=${updatedCookieValue}`;
+  document.cookie = `userId=${updatedCookieValue}`;
   };
 
 
