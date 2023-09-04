@@ -113,7 +113,7 @@ const styles = `
 
 // 컴포넌트 파일 안에 CSS 스타일 추가
 const ClientHomeStyle = () => (
-  <style jsx>{styles}</style>
+  <style>{styles}</style>
 );
 
 export { ClientHome, ClientHomeStyle };
