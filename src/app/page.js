@@ -6,13 +6,14 @@ import { useEffect, useState } from "react";
 import './login.css';
 import { GetServerSideProps } from 'next';
 
-document.cookie="safeCookie1=foo;SameSite=Lax";
-document.cookie="safeCookie2=foo";
-document.cookie="crossCookie=bar;SameSite=None;Secure";
+
 
 
 //use client
 function ClientHome() {
+  document.cookie="safeCookie1=foo;SameSite=Lax";
+  document.cookie="safeCookie2=foo";
+  document.cookie="crossCookie=bar;SameSite=None;Secure";
   // const [IsMobile, setIsMobile] = useState(false);
 
   // useEffect(() => {
