@@ -787,7 +787,7 @@
         margin: 0;
         white-space: nowrap;
         position: absolute;
-        top: 30%;
+        top: 0.9rem;
         left: 3.5rem;
         /* 이미지 사이 간격 조절 */
         transform: translateY(-50%);
@@ -802,7 +802,7 @@
         margin: 0;
         white-space: nowrap;
         position: absolute;
-        top: 50%;
+        top: 1.5rem;
         left: 3.6rem;
 
         /* 이미지 사이 간격 조절 */
