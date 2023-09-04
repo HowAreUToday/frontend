@@ -15,6 +15,25 @@ function ClientHome() {
   const [data, setData] = useState({});
 
 
+  const getUserIdFromCookie = () => {
+  // document.cookie를 사용하여 쿠키 문자열을 가져옵니다.
+  const cookies = document.cookie;
+
+  // 쿠키 문자열을 분할하여 각 쿠키를 배열로 만듭니다.
+  const cookieArray = cookies.split(";");
+
+  // 'userId' 쿠키를 찾습니다.
+  let userId = null;
+  for (let i = 0; i < cookieArray.length; i++) {
+    const cookie = cookieArray[i].trim();
+    if (cookie.startsWith("userId=")) {
+      userId = cookie.substring("userId=".length);
+      break;
+    }
+  }
+
+  return userId;
+};
 
   // 값 가져오기
   const fetchData = () => {
@@ -23,6 +42,7 @@ function ClientHome() {
       credentials: 'include',
       headers: {
         "Content-Type": "application/json",
+        "Cookie": "userId=" + getUserIdFromCookie()
       },
       credentials: 'include', 
       body: JSON.stringify(), // 요청 페이로드를 조정해야 할 수도 있습니다.
