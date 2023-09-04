@@ -762,65 +762,56 @@
     .image-container {
         display: flex;
         align-items: center;
-        justify-content: center;
-        /* 부모 요소를 수평 및 수직으로 가운데 정렬합니다. */
         width: 100%;
-        /* 원하는 너비 설정 */
-        height: 100%;
-        /* 원하는 높이 설정 */
+        height: auto;
+        /* 높이를 자동으로 조절하여 내용에 따라 늘어납니다. */
         margin-right: 0rem;
         margin-left: 1rem;
         overflow: hidden;
-        /* 이미지가 컨테이너를 벗어나지 않도록 합니다. */
         position: relative;
-        /* 포지션을 상대적으로 설정합니다. */
     }
 
     .rectangle-104-UsZ {
         background-color: #d9d9d9;
         border-radius: 100%;
-        /* 이미지 요소의 크기 설정 */
         width: 3rem;
         height: 3rem;
-        /* 이미지를 가운데 정렬하고, 이미지 요소를 부모 요소에 꽉 채웁니다. */
         object-fit: cover;
-        /* 이미지 비율 유지 및 부모 요소 내에서 가득 채우기 */
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
     }
-
 
     .item--Xqq {
         color: #000000;
-        flex-shrink: 0;
         font-family: Avenir Next LT Pro, 'Source Sans Pro';
-        font-size: 0.2rem;
+        font-size: 1.2rem;
         font-weight: 700;
-        /* line-height: 1.2125; */
-        right: 4.8rem;
-        bottom: 1.3rem;
-        margin: 0rem 0rem 0.0rem 0rem;
+        margin: 0;
         white-space: nowrap;
-        position: relative;
+        position: absolute;
+        top: 30%;
+        left: 3.5rem;
+        /* 이미지 사이 간격 조절 */
+        transform: translateY(-50%);
+        /* 수직 가운데 정렬 */
     }
 
     .item--dP5 {
-        position: relative;
         color: #000000;
-        flex-shrink: 0;
         font-family: Avenir Next LT Pro, 'Source Sans Pro';
         font-size: 0.02rem;
         font-weight: 300;
-        /* line-height: 1.2125; */
-        margin-right: 0.0rem;
-        /* transform: translateX(1.6rem); */
-        right: 6.2rem;
-        bottom: 0rem;
+        margin: 0;
         white-space: nowrap;
+        position: absolute;
+        top: 50%;
+        left: 3.6rem;
+
+        /* 이미지 사이 간격 조절 */
+        transform: translateY(50%);
+        /* 수직 가운데 정렬 */
     }
+
+    /* 선택적으로 원하는 여백을 조절하세요. */
+
 
 
 
