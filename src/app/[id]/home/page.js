@@ -15,6 +15,19 @@ function ClientHome() {
   const [data, setData] = useState({});
 
 
+  const updateCookieSettings = () => {
+  // 기존 쿠키 값을 읽어옵니다.
+  const existingCookieValue = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId='));
+
+  // 기존 쿠키 값을 파싱합니다.
+  const existingCookie = existingCookieValue ? existingCookieValue.split('=')[1] : '';
+
+  // 변경된 설정으로 쿠키를 새로 설정합니다.
+  const updatedCookieValue = `${existingCookie}; SameSite=None; Secure`;
+  document.cookie = `myCookie=${updatedCookieValue}`;
+  };
+
+
 //   const getUserIdFromCookie = () => {
 //   // document.cookie를 사용하여 쿠키 문자열을 가져옵니다.
 //   const cookies = document.cookie;
@@ -80,7 +93,10 @@ function ClientHome() {
 
   useEffect(() => {
     // 컴포넌트가 마운트될 때 데이터를 가져오도록 설정
+    updateCookieSettings();
+
     fetchData();
+    
   }, []);
 
   useEffect(() => {
