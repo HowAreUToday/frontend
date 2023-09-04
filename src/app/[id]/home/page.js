@@ -24,6 +24,7 @@ function ClientHome() {
       headers: {
         "Content-Type": "application/json",
       },
+      credentials: 'include', 
       body: JSON.stringify(), // 요청 페이로드를 조정해야 할 수도 있습니다.
     })
       .then((response) => response.json())
