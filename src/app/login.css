@@ -1,3 +1,5 @@
+@media screen and (max-width: 768px) {
+
 .item--Amu {
     align-items: center;
     background-color: #ffffff;
@@ -58,19 +60,4 @@
         }
     }
 }
-
-/* 모바일 화면에 대한 스타일 */
-@media screen and (max-width: 768px) {
-    .item--Amu {
-        padding: 2rem; /* 모바일 화면에 대한 여백 조정 */
-    }
-
-    .how-are-you-today-K2X {
-        font-size: 2rem; /* 모바일 화면에 대한 폰트 크기 조정 */
-        margin: 0; /* 모바일 화면에 대한 여백 제거 */
-    }
-
-    .group-86-9nF {
-        padding: 1rem; /* 모바일 화면에 대한 내부 여백 조정 */
-    }
 }
