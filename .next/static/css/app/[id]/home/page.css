@@ -1,0 +1,661 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/[id]/home/home.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.item--47h {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+
+    padding: 0rem 0rem 3rem 0.12rem;
+    position: relative;
+    width: 100%;
+
+    align-items: center;
+    /* 가로 중앙 정렬 */
+    justify-content: center;
+
+
+
+    .auto-group-qzao-ydy {
+        align-items: center;
+        /* 가로 중앙 정렬 */
+
+        justify-content: flex-start;
+        /* 좌측 정렬 */
+
+        /* 세로 중앙 정렬 */
+        display: flex;
+        flex-shrink: 0;
+        height: 2.2rem;
+        margin-bottom: 4.5rem;
+        position: relative;
+        width: 30.2rem;
+
+
+
+        .how-are-you-today-h4B {
+            transform: translateX(-13%);
+
+            align-items: center;
+            /* 가로 중앙 정렬 */
+            justify-content: center;
+            /* 세로 중앙 정렬 */
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.8rem;
+            font-weight: 900;
+            height: 2.2rem;
+            left: 0;
+            line-height: 1.2125;
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            width: 21.2rem;
+        }
+
+        .logout-button {
+            margin-top: 1.5rem;
+            margin-left: 4.5rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateX(33%);
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+            background-color: #ffffff;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.8rem;
+            font-weight: 900;
+            height: 2.2rem;
+            line-height: 1.2125;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+
+    }
+
+    .auto-group-kq2x-anB {
+        /* 가로 중앙 정렬 */
+        justify-content: center;
+        /* 세로 중앙 정렬 */
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        height: 4rem;
+        margin: 0rem 28.1rem 2.8rem 0rem;
+        width: calc(100% - 29.1rem);
+
+        .image-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* 부모 요소를 수평 및 수직으로 가운데 정렬합니다. */
+            width: 4rem;
+            /* 원하는 너비 설정 */
+            height: 4rem;
+            /* 원하는 높이 설정 */
+            margin-right: 0rem;
+            margin-left: 2rem;
+            overflow: hidden;
+            /* 이미지가 컨테이너를 벗어나지 않도록 합니다. */
+            position: relative;
+            /* 포지션을 상대적으로 설정합니다. */
+        }
+
+        .rectangle-104-UsZ {
+            background-color: #d9d9d9;
+            border-radius: 5rem;
+            /* 이미지 요소의 크기 설정 */
+            width: 100%;
+            height: 100%;
+            /* 이미지를 가운데 정렬하고, 이미지 요소를 부모 요소에 꽉 채웁니다. */
+            -o-object-fit: cover;
+               object-fit: cover;
+            /* 이미지 비율 유지 및 부모 요소 내에서 가득 채우기 */
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+
+        .auto-group-tmmz-o99 {
+
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            height: calc(100% - 0.6rem);
+            margin: 0.3rem 0;
+
+            .item--Xqq {
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1.2rem;
+                font-weight: 700;
+                line-height: 1.2125;
+                margin: 0rem 0rem 0.0rem 0.1rem;
+                white-space: nowrap;
+            }
+
+            .item--dP5 {
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1.2rem;
+                font-weight: 300;
+                line-height: 1.2125;
+                margin-right: 0.0rem;
+                transform: translateX(1.6rem);
+
+                white-space: nowrap;
+            }
+        }
+    }
+
+    .component-Z1q {
+
+        align-items: center;
+        background-color: #ffffff;
+        border: solid 0.1rem #929292;
+        border-radius: 0.9203rem;
+        box-shadow: 0.2301rem 1.8405rem 2.1856rem rgba(0, 0, 0, 0.0900000036);
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: 0rem 0.2rem 2.34rem 0.5rem;
+        overflow: hidden;
+        padding: 2.761rem 2.761rem 3.559rem 2.761rem;
+        position: relative;
+        width: 35.6rem;
+
+        .frame-4987-BJ7 {
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-shrink: 0;
+            height: 1.8405rem;
+            margin-bottom: 2.983rem;
+            overflow: hidden;
+            padding: 0rem 0.554rem 0rem 0.46rem;
+            position: relative;
+            width: 100%;
+
+            .icons-GaT {
+                flex-shrink: 0;
+                height: 1.1503rem;
+                margin: 0rem 8.018rem 0rem 0rem;
+                -o-object-fit: contain;
+                   object-fit: contain;
+                vertical-align: top;
+                width: 0.7113rem;
+
+            }
+
+            .icons-GaT:hover {
+                transform: scale(1.5);
+                /* 호버시 크기 조절 */
+            }
+
+            .september-2021-noh {
+                color: #4a5660;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1.6105rem;
+                font-weight: 600;
+                line-height: 1.2;
+                margin-right: 7.924rem;
+                /* 우측 마진 추가 */
+                text-align: center;
+                overflow: hidden;
+                /* 넘친 내용 숨김 */
+                width: 180px;
+                /* 고정 너비 설정 */
+                display: inline-block;
+                /* 너비가 고정된 상태에서 가로 스크롤을 표시하려면 inline-block 설정 */
+                white-space: nowrap;
+                /* 텍스트가 넘칠 경우 가로 스크롤 표시 */
+            }
+
+            .icons-VCK {
+                flex-shrink: 0;
+                height: 1.1503rem;
+                margin-top: 0rem;
+                -o-object-fit: contain;
+                   object-fit: contain;
+                vertical-align: top;
+                width: 0.7113rem;
+            }
+
+            .icons-VCK:hover {
+                transform: scale(1.5);
+                /* 호버시 크기 조절 */
+            }
+        }
+
+        .frame-4988-CcX {
+            align-items: center;
+            display: flex;
+            flex-shrink: 0;
+            margin: 0rem 0.676rem 0cqmin 0.575rem;
+            width: calc(100% - 1.251rem);
+
+            .sat-X91 {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                margin-right: 1.7712rem;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            .sat-E3R {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                margin-right: 1.8212rem;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            .sat-L6T {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                margin-right: 2.0712rem;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            .sat-pGX {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                margin-right: 2.0212rem;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            .sat-wM9 {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                margin-right: 2.3212rem;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            .sat-fnw {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 400;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                margin-right: 2.4212rem;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+
+            .sat-oeF {
+                color: #b5bec5;
+                flex-shrink: 0;
+                font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 600;
+                letter-spacing: 0.15rem;
+                line-height: 1.2;
+                text-align: center;
+                text-transform: uppercase;
+                white-space: nowrap;
+            }
+        }
+
+        .frame-4990-Y63 {
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            margin: 0rem 0.875rem 0rem 0.875rem;
+            width: calc(100% - 1.751rem);
+
+
+            .frame-4992-vvT {
+                align-items: center;
+                display: grid;
+                grid-template-columns: repeat(7, minmax(50px, 1fr));
+                /* 열 너비를 최소 50px로 설정하고 동일한 비율로 나누기 */
+                gap: 4px;
+                flex-shrink: 0;
+                margin-bottom: 1.rem;
+                width: 100%;
+
+
+                .item-1-sao {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: 'Avenir Next LT Pro', 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    text-align: center;
+                    white-space: nowrap;
+                    padding: 8px;
+                }
+
+                .item-1-sao:hover {
+                    background-color: #000000;
+                    color: #ffffff;
+                }
+
+                .date-inactive-4Uw {
+                    background-color: #f04d23;
+                    /* 배경 색상을 date-inactive-4Uw와 동일하게 설정 */
+                    color: #ffffff;
+                    flex-shrink: 0;
+                    font-family: 'Avenir Next LT Pro', 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    text-align: center;
+                    white-space: nowrap;
+                    padding: 8px;
+                }
+
+                .date-inactive-4Uw:hover {
+                    background-color: #000000;
+                    color: #ffffff;
+                }
+
+                .item-1-ydq {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-Wdm {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-3No {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-a7q {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-ufu {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-431 {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
+
+            .frame-4993-bYj {
+                align-items: center;
+                display: flex;
+                flex-shrink: 0;
+
+                .item-1-9aF {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-5yh {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    margin-right: 2.6712rem;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+
+                .item-1-pwH {
+                    color: #4a5660;
+                    flex-shrink: 0;
+                    font-family: Avenir Next LT Pro, 'Source Sans Pro';
+                    font-size: 1.6rem;
+                    font-weight: 600;
+                    line-height: 1.125;
+                    text-align: center;
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    .group-90-J5m {
+        background-color: #ffffff;
+        border: solid 0.1rem #aeaeae;
+        border-radius: 0.8rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        margin: 0rem 0rem 0.7rem 0.3rem;
+        padding: 0.7rem 1.5rem 0.8rem 1.1rem;
+        width: 35.6rem;
+
+        .yy-mm-dd-daily-c6T {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 900;
+            line-height: 1.2125;
+            margin-bottom: 0.6rem;
+            white-space: nowrap;
+        }
+
+        .item--YF1 {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1rem;
+            font-weight: 300;
+            line-height: 1.2125;
+            max-width: 33rem;
+        }
+    }
+
+    .group-91-eST {
+
+        align-items: center;
+        border-radius: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: 0rem 0rem 4.5rem 0.3rem;
+        width: 35.6rem;
+
+        .auto-group-cfqb-NdM {
+            background-color: #ffffff;
+            border: solid 0.1rem #aeaeae;
+            border-radius: 0.8rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            margin-bottom: 0.6rem;
+            padding: 0.7rem 1.5rem 0.8rem 1.1rem;
+            width: 100%;
+
+            .yy-mm-dd-daily-u7V {
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1.4rem;
+                font-weight: 900;
+                line-height: 1.2125;
+                margin-bottom: 0.6rem;
+                white-space: nowrap;
+            }
+
+            .item--2xo {
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.2125;
+                max-width: 33rem;
+            }
+        }
+
+        .group-90-BDR {
+            background-color: #ffffff;
+            border: solid 0.1rem #aeaeae;
+            border-radius: 0.8rem;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            padding: 0.7rem 1.5rem .8rem 1.1rem;
+            width: 100%;
+
+            .yy-mm-dd-daily-hhZ {
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1.4rem;
+                font-weight: 900;
+                line-height: 1.2125;
+                margin-bottom: 0.6rem;
+                white-space: nowrap;
+            }
+
+            .item--RtT {
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1rem;
+                font-weight: 300;
+                line-height: 1.2125;
+                max-width: 33rem;
+            }
+        }
+    }
+
+    .group-89-x1D {
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        /* 가로 가운데 정렬을 위해 50%로 설정 */
+        transform: translateX(-50%);
+        z-index: 9999;
+
+        align-items: center;
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 4.8rem;
+        box-sizing: border-box;
+        color: #000000;
+        display: flex;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 2rem;
+        font-weight: 900;
+        height: 5.5rem;
+        justify-content: center;
+        line-height: 1.2125;
+        margin-left: 0.3rem;
+        white-space: nowrap;
+        width: 35.6rem;
+        text-decoration: none !important;
+
+        transition: background-color 0.5s ease;
+        /* 배경 색깔이 0.5초 동안 천천히 변화 */
+    }
+
+    .group-89-x1D:hover {
+        background-color: #000000;
+        /* 마우스 오버 시 배경 색깔 변경 */
+        color: #ffffff;
+        /* 마우스 오버 시 텍스트 색깔 변경 */
+    }
+
+}

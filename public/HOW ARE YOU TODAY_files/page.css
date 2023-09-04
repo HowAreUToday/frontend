@@ -1,0 +1,191 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./src/app/[id]/chat/chat.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************/
+.item--ZNf {
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1.7rem 1rem 0.7rem 0.8rem;
+    position: relative;
+    width: 100%;
+
+    .auto-group-fkst-ANT {
+        flex-shrink: 0;
+        height: 2.2rem;
+        margin: 0rem 14.8rem 1.9rem 0rem;
+        position: relative;
+        width: 21.2rem;
+
+        .how-are-you-today-Et7 {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.8rem;
+            font-weight: 900;
+            height: 2.2rem;
+            left: 0;
+            line-height: 1.2125;
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            width: 21.2rem;
+        }
+
+        .how-are-you-today-JNB {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.8rem;
+            font-weight: 900;
+            height: 2.2rem;
+            left: 0;
+            line-height: 1.2125;
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            width: 21.2rem;
+        }
+    }
+
+    .group-95-bcB {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        color: #000000;
+        flex-shrink: 0;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin: 0rem 6.5rem 1.9rem 0rem;
+        padding: 1.9rem 1.5rem;
+        white-space: nowrap;
+        width: 29.5rem;
+    }
+
+    .group-96-oiF {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 12.9rem;
+        margin: 0rem 0rem 1.9rem 6.3rem;
+        padding: 1.3rem 1rem;
+        width: 29.5rem;
+
+        .item--KwV {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+    .group-97-8XZ {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 14.1rem;
+        margin: 0rem 6.5rem 3.4rem 0rem;
+        padding: 1.3rem 1.6rem 1.3rem 1.5rem;
+
+        .item--38j {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+    .group-98-bhy {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 25.8rem;
+        margin: 0rem 0rem 7.7rem 6.3rem;
+        padding: 0.9rem 1rem;
+        width: 29.5rem;
+
+        .item--iXh {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+    .auto-group-zgb1-ZyZ {
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        height: 4.7rem;
+        width: 100%;
+
+        .image-2-i5m {
+            flex-shrink: 0;
+            height: 4.7rem;
+            -o-object-fit: cover;
+               object-fit: cover;
+            vertical-align: top;
+            width: 4.1rem;
+        }
+
+        .auto-group-tmh9-S1m {
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-shrink: 0;
+            height: 100%;
+            padding: 0.4rem 0rem 0.4rem 0.6rem;
+
+            .group-92-mJw {
+                background-color: #ffffff;
+                border: solid 0.1rem #000000;
+                border-radius: 1rem;
+                box-sizing: border-box;
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1.4rem;
+                font-weight: 400;
+                height: 100%;
+                line-height: 1.2125;
+                margin-right: 0.5rem;
+                padding: 1.1rem 1.4rem;
+                white-space: nowrap;
+                width: 27.7rem;
+            }
+
+            .group-94-caT {
+                background-color: #ffffff;
+                border: solid 0.1rem #000000;
+                border-radius: 9.1rem;
+                box-sizing: border-box;
+                flex-shrink: 0;
+                height: 100%;
+                padding: 0.5rem 0.8rem 0.4rem 0.8rem;
+
+                .image-1-juy {
+                    height: 3rem;
+                    -o-object-fit: cover;
+                       object-fit: cover;
+                    vertical-align: top;
+                    width: 2.7rem;
+                }
+            }
+        }
+    }
+}

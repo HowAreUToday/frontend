@@ -1,0 +1,282 @@
+.item--ZNf {
+
+
+    align-items: center;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 1.7rem 0rem 0.7rem 0.0rem;
+    position: relative;
+    width: 100%;
+
+
+    .message-container {
+        max-height: 680px;
+        /* 최대 높이를 조절합니다. */
+        overflow-y: auto;
+        /* 세로 스크롤을 표시합니다. */
+
+    }
+
+    .dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* 배경에 어둡게 블러 처리 */
+        z-index: 1000;
+        /* 다이얼로그가 다른 요소 위에 나타나도록 설정 */
+    }
+
+    .dialog-content {
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .dialog-content p {
+        font-size: 18px;
+    }
+
+    .dialog-content button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #404040;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .dialog-content button:hover {
+        background-color: #0056b3;
+    }
+
+
+
+    .auto-group-fkst-ANT {
+        align-items: center;
+        /* 가로 중앙 정렬 */
+
+        justify-content: flex-start;
+        /* 좌측 정렬 */
+
+        /* 세로 중앙 정렬 */
+        display: flex;
+        flex-shrink: 0;
+        height: 2.2rem;
+        margin-bottom: 4.5rem;
+        position: relative;
+        width: 30.2rem;
+
+        .how-are-you-today-Et7 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            transform: translateX(-13%);
+
+            align-items: center;
+            /* 가로 중앙 정렬 */
+            justify-content: center;
+            /* 세로 중앙 정렬 */
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.8rem;
+            font-weight: 900;
+            height: 2.2rem;
+            left: 0;
+            line-height: 1.2125;
+            position: absolute;
+            top: 0;
+            white-space: nowrap;
+            width: 21.2rem;
+        }
+
+        .logout-button {
+            margin-top: 1.5rem;
+            margin-left: 4.5rem;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translateX(33%);
+            align-items: center;
+            justify-content: center;
+            color: #000000;
+            background-color: #ffffff;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.8rem;
+            font-weight: 900;
+            height: 2.2rem;
+            line-height: 1.2125;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+    }
+
+    /* AI 답변을 상대방 답변 스타일로 변경 */
+    .group-95-bcB {
+        background-color: #F0F0F0;
+        border: solid 0.1rem #CCCCCC;
+        color: #333333;
+        border-radius: 1rem;
+        box-sizing: border-box;
+
+        line-height: 1.2125;
+        margin: 0rem 6.5rem 1.9rem 0rem;
+        padding: 1.3rem 1rem;
+        width: 29.5rem;
+    }
+
+    .item--KwV {
+        color: #000000;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        max-width: 26.4rem;
+    }
+
+
+    .group-96-oiF {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        margin: 0rem 0rem 1.9rem 6.3rem;
+        padding: 1.3rem 1rem;
+        width: 29.5rem;
+    }
+
+    .item--KwV {
+        color: #000000;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        max-width: 26.4rem;
+    }
+
+    .group-97-8XZ {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 14.1rem;
+        margin: 0rem 6.5rem 3.4rem 0rem;
+        padding: 1.3rem 1.6rem 1.3rem 1.5rem;
+
+        .item--38j {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+    .group-98-bhy {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 25.8rem;
+        margin: 0rem 0rem 7.7rem 6.3rem;
+        padding: 0.9rem 1rem;
+        width: 29.5rem;
+
+        .item--iXh {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+
+
+    .auto-group-zgb1-ZyZ {
+        position: fixed;
+        /* position을 fixed로 변경 */
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 9999;
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        justify-content: center;
+        height: 4.7rem;
+        width: 100%;
+
+        .image-2-i5m {
+
+            flex-shrink: 0;
+            height: 4.7rem;
+            object-fit: cover;
+            vertical-align: top;
+            width: 4.1rem;
+
+        }
+
+        .auto-group-tmh9-S1m {
+            align-items: center;
+            box-sizing: border-box;
+            display: flex;
+            flex-shrink: 0;
+            height: 100%;
+            padding: 0.4rem 0rem 0.4rem 0.6rem;
+
+
+            .group-92-mJw {
+                background-color: #ffffff;
+                border: solid 0.1rem #000000;
+                border-radius: 1rem;
+                box-sizing: border-box;
+                color: #000000;
+                flex-shrink: 0;
+                font-family: Inter, 'Source Sans Pro';
+                font-size: 1.4rem;
+                font-weight: 400;
+                height: 100%;
+                line-height: 1.2125;
+                margin-right: 0.5rem;
+                margin-left: 0.5rem;
+                padding: 1.1rem 1.4rem;
+                white-space: nowrap;
+                width: 27.7rem;
+            }
+
+            .group-94-caT {
+                background-color: #ffffff;
+                border: solid 0.1rem #000000;
+                border-radius: 9.1rem;
+                box-sizing: border-box;
+                flex-shrink: 0;
+                height: 100%;
+                padding: 0.5rem 0.8rem 0.4rem 0.8rem;
+
+                .image-1-juy {
+                    height: 3rem;
+                    object-fit: cover;
+                    vertical-align: top;
+                    width: 2.7rem;
+                }
+            }
+        }
+    }
+}
