@@ -116,4 +116,4 @@ const ClientHomeStyle = () => (
   <style jsx>{styles}</style>
 );
 
-export default {ClientHome,ClientHomeStyle};
+export { ClientHome, ClientHomeStyle };
