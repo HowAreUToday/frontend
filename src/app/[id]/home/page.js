@@ -14,26 +14,6 @@ function ClientHome() {
   const [today, setToday] = useState(new Date());
   const [data, setData] = useState({});
 
-  const updateCookieSettings = () => {
-  const existingCookieValue = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId='));
-
-  // 기존 쿠키 값을 파싱합니다.
-  const existingCookie = existingCookieValue ? existingCookieValue.split('=')[1] : '';
-  // 기존 쿠키의 도메인 및 경로를 가져옵니다.
-
-  // 변경된 설정으로 쿠키를 생성합니다.
-  const updatedCookieValue = `${existingCookie}; SameSite=None; Secure`;
-
-  const existingCookieDomain = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId=')).split(';')[1].trim().split('=')[1];
-  const existingCookiePath = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId=')).split(';')[2].trim().split('=')[1];
-
-  // 기존 쿠키와 동일한 도메인과 경로에 새로운 쿠키를 생성합니다.
-  document.cookie = `userId=${updatedCookieValue}; Domain=${existingCookieDomain}; Path=${existingCookiePath}; SameSite=None; Secure`;
-
-
-  
-};
-
 
 
 //   const getUserIdFromCookie = () => {
@@ -100,8 +80,6 @@ function ClientHome() {
   const formattedDate = `${year}-${month}-${day}`;
 
   useEffect(() => {
-    // 컴포넌트가 마운트될 때 데이터를 가져오도록 설정
-    updateCookieSettings();
 
     fetchData();
     
