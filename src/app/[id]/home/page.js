@@ -14,10 +14,7 @@ function ClientHome() {
   const [today, setToday] = useState(new Date());
   const [data, setData] = useState({});
 
-
   const updateCookieSettings = () => {
-
-    / 기존 쿠키 값을 읽어옵니다.
   const existingCookieValue = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId='));
 
   // 기존 쿠키 값을 파싱합니다.
