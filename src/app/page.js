@@ -49,7 +49,7 @@ function ClientHome() {
   )
 }
 
-const style = `
+const styles = `
   .item--Amu {
     align-items: center;
     background-color: #ffffff;
