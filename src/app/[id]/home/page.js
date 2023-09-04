@@ -23,21 +23,11 @@ function ClientHome() {
   // 기존 쿠키 값을 파싱합니다.
   const existingCookie = existingCookieValue ? existingCookieValue.split('=')[1] : '';
 
-  console.log(existingCookieValue);
-
   // 변경된 설정으로 쿠키를 새로 설정합니다.
   const updatedCookieValue = `${existingCookie}; SameSite=None; Secure`;
   document.cookie = `userId=${updatedCookieValue}`;
 
   
-
-
-  // // 기존 쿠키의 도메인 및 경로를 가져옵니다.
-  // const existingCookieDomain = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId=')).split(';')[1].trim().split('=')[1];
-  // const existingCookiePath = document.cookie.split(';').find(cookie => cookie.trim().startsWith('userId=')).split(';')[2].trim().split('=')[1];
-
-  // // 기존 쿠키와 동일한 도메인과 경로에 새로운 쿠키를 생성합니다.
-  // document.cookie = `userId=${updatedCookieValue}; Domain=${existingCookieDomain}; Path=${existingCookiePath}; SameSite=None; Secure`;
 };
 
 
