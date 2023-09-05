@@ -70,7 +70,7 @@ function ClientHome() {
     // 로그아웃 후 필요한 추가 작업을 수행합니다.
 
     // 로그아웃 후 페이지 리로딩
-    window.location.href = "https://kauth.kakao.com/oauth/logout?client_id="process.env.NEXT_PUBLIC_LOGIN_API_KEY+"&logout_redirect_uri=https://howareyoutoday.vercel.app/";
+    window.location.href = "https://kauth.kakao.com/oauth/logout?client_id=" + process.env.NEXT_PUBLIC_LOGIN_API_KEY+"&logout_redirect_uri=https://howareyoutoday.vercel.app/";
   }
 
 
