@@ -660,7 +660,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
 
     .item--47h {
         background-color: #ffffff;
@@ -788,7 +788,7 @@
         white-space: nowrap;
         position: absolute;
         top: 5.5rem;
-        left: 4rem;
+        left: 5rem;
         /* 이미지 사이 간격 조절 */
         transform: translateY(-50%);
         /* 수직 가운데 정렬 */
@@ -802,8 +802,8 @@
         margin: 0;
         white-space: nowrap;
         position: absolute;
-        top: 1.5rem;
-        left: 4rem;
+        top: 6.5rem;
+        left: 5rem;
 
         /* 이미지 사이 간격 조절 */
         transform: translateY(50%);
