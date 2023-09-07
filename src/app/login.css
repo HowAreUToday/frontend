@@ -59,7 +59,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1300px) {
     .item--Amu {
         align-items: center;
         background-color: #ffffff;
