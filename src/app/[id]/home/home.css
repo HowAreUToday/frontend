@@ -71,6 +71,8 @@
             line-height: 1.2125;
             white-space: nowrap;
             cursor: pointer;
+            border-radius: 1rem;
+
         }
 
     }
@@ -741,6 +743,8 @@
         /* 테두리 색상 및 두께 설정 */
         padding: 8px;
         /* 테두리 안의 여백 설정 */
+        border-radius: 1rem;
+
     }
 
 
