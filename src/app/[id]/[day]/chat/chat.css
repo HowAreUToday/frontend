@@ -280,3 +280,313 @@
         }
     }
 }
+
+@media screen and (max-width: 1300px) {
+
+
+    .item--ZNf {
+
+
+        align-items: center;
+        background-color: #ffffff;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        padding: 0rem 0rem 0rem 0.0rem;
+        position: relative;
+        width: 100%;
+        /* height: 70%; */
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+
+
+    .dialog {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* 배경에 어둡게 블러 처리 */
+        z-index: 1000;
+        /* 다이얼로그가 다른 요소 위에 나타나도록 설정 */
+    }
+
+    .dialog-content {
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    .dialog-content p {
+        font-size: 18px;
+    }
+
+    .dialog-content button {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #404040;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .dialog-content button:hover {
+        background-color: #0056b3;
+    }
+
+
+
+    .auto-group-fkst-ANT {
+        position: fixed;
+        /* 화면 상단에 고정 */
+        top: 0;
+        /* 상단에 위치 */
+        left: 0;
+        /* 좌측 정렬 */
+        width: 100%;
+        /* 화면 가로폭 전체 너비 */
+        height: 2rem;
+        /* 높이 설정 */
+        align-items: center;
+        /* 가로 중앙 정렬 */
+        display: flex;
+        /* 요소를 플렉스 박스로 설정 */
+        flex-shrink: 0;
+        /* 축소하지 않음 */
+        justify-content: flex-start;
+        /* 좌측 정렬 */
+    }
+
+
+    .how-are-you-today-Et7 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* transform: translateX(-13%); */
+
+        align-items: center;
+        /* 가로 중앙 정렬 */
+        justify-content: center;
+        /* 세로 중앙 정렬 */
+        color: #000000;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.3rem;
+        font-weight: 900;
+        height: 100%;
+        left: 0;
+        line-height: 1.2125;
+        position: absolute;
+        top: 0;
+        white-space: nowrap;
+        width: 80%;
+
+    }
+
+    .logout-button {
+        margin-top: 1.8rem;
+        /* margin-left: 4.5rem; */
+        position: absolute;
+        /* top: 3px; */
+        right: 0;
+        /* transform: translateX(33%); */
+        align-items: center;
+        justify-content: center;
+        color: #000000;
+        background-color: #ffffff;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.2rem;
+        font-weight: 900;
+        height: 100%;
+        line-height: 1.2125;
+        white-space: nowrap;
+        cursor: pointer;
+        /* 테두리 속성 추가 */
+        border: 1px solid #000000;
+        /* 테두리 색상 및 두께 설정 */
+        padding: 8px;
+        /* 테두리 안의 여백 설정 */
+        border-radius: 1rem;
+
+    }
+
+
+    .message-container {
+        max-height: 70%;
+
+        /* 최대 높이를 조절합니다. */
+        overflow-y: auto;
+        /* 세로 스크롤을 표시합니다. */
+        width: 100%;
+    }
+
+
+
+    /* AI 답변을 상대방 답변 스타일로 변경 */
+    .group-95-bcB {
+        background-color: #F0F0F0;
+        border: solid 0.1rem #CCCCCC;
+        color: #333333;
+        border-radius: 1rem;
+        box-sizing: border-box;
+
+        line-height: 1.2125;
+        margin: 0rem 20% 0.8rem 0rem;
+        padding: 1.3rem 1rem;
+        width: 80%;
+        word-wrap: break-word;
+    }
+
+    .item--KwV {
+        color: #000000;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        max-width: 26.4rem;
+        word-wrap: break-word;
+    }
+
+
+    .group-96-oiF {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        margin: 0rem 0rem 0.8rem 20%;
+        padding: 1.3rem 1rem;
+        width: 80%;
+        word-wrap: break-word;
+    }
+
+    .item--KwV {
+        color: #000000;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        max-width: 26.4rem;
+        word-wrap: break-word;
+    }
+
+    .group-97-8XZ {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 14.1rem;
+        margin: 0rem 6.5rem 3.4rem 0rem;
+        padding: 1.3rem 1.6rem 1.3rem 1.5rem;
+
+        .item--38j {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+    .group-98-bhy {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        flex-shrink: 0;
+        height: 25.8rem;
+        margin: 0rem 0rem 7.7rem 6.3rem;
+        padding: 0.9rem 1rem;
+        width: 29.5rem;
+
+        .item--iXh {
+            color: #000000;
+            font-family: Inter, 'Source Sans Pro';
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 1.2125;
+            max-width: 26.4rem;
+        }
+    }
+
+
+
+    .auto-group-zgb1-ZyZ {
+
+        position: fixed;
+        align-items: center;
+        bottom: 10px;
+        z-index: 9999;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-height: 9%;
+        /* 최대 높이를 지정합니다. */
+        left: 0.5%;
+        right: 0.5%;
+        margin: 0 auto;
+        /* 가운데 정렬을 위해 margin을 추가합니다. */
+    }
+
+    .image-2-i5m {
+        height: 100%;
+        object-fit: cover;
+        vertical-align: top;
+        width: 10%;
+    }
+
+    .auto-group-tmh9-S1m {
+        align-items: center;
+        display: flex;
+        height: 100%;
+        width: 100%;
+    }
+
+    .group-92-mJw {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 1rem;
+        color: #000000;
+        font-family: Inter, 'Source Sans Pro';
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.2125;
+        margin-right: 0.5rem;
+        margin-left: 0.5rem;
+        white-space: nowrap;
+        width: 67%;
+    }
+
+    .group-94-caT {
+        background-color: #ffffff;
+        border: solid 0.1rem #000000;
+        border-radius: 9.1rem;
+        flex-shrink: 0;
+        height: 100%;
+        width: 10%;
+        display: flex;
+        /* 내부 이미지를 가운데 정렬하기 위해 부모 요소에도 display: flex를 추가합니다. */
+        justify-content: center;
+        /* 내부 이미지를 가운데 정렬합니다. */
+        align-items: center;
+    }
+
+    .image-1-juy {
+        height: 100%;
+        object-fit: cover;
+        vertical-align: top;
+        width: 100%;
+    }
+
+}
