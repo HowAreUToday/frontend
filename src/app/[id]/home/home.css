@@ -902,6 +902,7 @@
     .frame-4988-CcX {
         display: flex;
         justify-content: space-between;
+        grid-template-columns: repeat(7, 1fr);
         /* 요일들을 수평으로 고르게 분배합니다. */
         align-items: center;
         margin: 0rem 0rem 0.0rem 0rem;
