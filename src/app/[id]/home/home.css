@@ -54,7 +54,7 @@
         }
 
         .logout-button {
-            margin-top: 1.5rem;
+            margin-top: 1.4rem;
             margin-left: 4.5rem;
             position: absolute;
             top: 0;
@@ -65,9 +65,9 @@
             color: #000000;
             background-color: #ffffff;
             font-family: Inter, 'Source Sans Pro';
-            font-size: 1.8rem;
+            font-size: 1.6rem;
             font-weight: 900;
-            height: 2.2rem;
+            height: 2.1rem;
             line-height: 1.2125;
             white-space: nowrap;
             cursor: pointer;
