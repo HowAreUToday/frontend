@@ -134,11 +134,14 @@ function ClientHome(props) {
       return; // 빈 메시지 전송 방지
     }
 
+    const user = userMessage;
+    setUserMessage('');
+    
     // 사용자가 입력한 메시지를 메시지 배열에 추가
     if (userMessage.trim() !== '') {
       setMessages((prevMessages) => [
         ...prevMessages,
-        { text: `${userMessage}`, type: 'group-96-oiF', }, // 사용자 메시지
+        { text: `${user}`, type: 'group-96-oiF', }, // 사용자 메시지
       ]);
     }
 
@@ -151,7 +154,7 @@ function ClientHome(props) {
     // }
 
     // AI 응답 생성 및 추가 (임시 예시)
-    const aiResponse = await simulateAIResponse(userMessage);
+    const aiResponse = await simulateAIResponse(user);
     // const aiResponseWithBreaks = aiResponse.replace('\n', '<br>');
 
     const aiResponseWithBreaks = aiResponse.split('\\n').map((line, index) => (
@@ -166,8 +169,9 @@ function ClientHome(props) {
       ...prevMessages,
       { text: aiResponseWithBreaks, type: 'group-95-bcB' }, // AI 응답 메시지
     ]);
+  
     // 메시지 입력 필드 및 이미지 초기화
-    setUserMessage('');
+
     setSelectedImage(null);
   };
 
