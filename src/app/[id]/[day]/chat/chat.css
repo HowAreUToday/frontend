@@ -24,12 +24,14 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+              
+              animation: spin 10s linear infinite; /* 애니메이션 속성을 조정합니다. */
       display: none;
         /* 로딩 이미지 스타일 */
         .loader img {
           width: 200px; /* 이미지 크기를 조정합니다. */
           height: 200px; /* 이미지 크기를 조정합니다. */
-          animation: spin 10s linear infinite; /* 애니메이션 속성을 조정합니다. */
+          
         }
     }
     
