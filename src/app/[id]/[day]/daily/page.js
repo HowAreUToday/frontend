@@ -29,7 +29,7 @@ export default function ClientHome(props) {
           const aiResponseWithBreaks = result.text.split('\\n').map((line, index) => (
             <span key={index}>
               {line}
-              {index !== aiResponse.length - 1 && <br />}
+              {index !== result.text.length - 1 && <br />}
             </span>
           ));
           setData({
