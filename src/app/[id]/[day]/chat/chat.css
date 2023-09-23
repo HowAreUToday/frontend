@@ -1,7 +1,14 @@
 /* 로딩 이미지를 중앙에서 빙글빙글 회전시키는 키 프레임 애니메이션을 추가합니다. */
 @keyframes spin {
-          0% { transform: translate(-50%, -50%) rotate(0deg); }
-          100% { transform: translate(-50%, -50%) rotate(360deg); }
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) rotate(180deg) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) scale(1);
+  }
 }
 
 .item--ZNf {
@@ -23,9 +30,8 @@
       position: fixed;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
-              
-              animation: spin 10s linear infinite; /* 애니메이션 속성을 조정합니다. */
+      transform: translate(-50%, -50%);        
+      animation: spin 10s linear infinite; /* 애니메이션 속성을 조정합니다. */
       display: none;
         /* 로딩 이미지 스타일 */
         .loader img {
