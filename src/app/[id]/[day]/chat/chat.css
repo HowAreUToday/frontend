@@ -1,3 +1,9 @@
+/* 로딩 이미지를 중앙에서 빙글빙글 회전시키는 키 프레임 애니메이션을 추가합니다. */
+@keyframes spin {
+          0% { transform: translate(-50%, -50%) rotate(0deg); }
+          100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
 .item--ZNf {
 
 
@@ -19,13 +25,6 @@
       left: 50%;
       transform: translate(-50%, -50%);
       display: none;
-        
-        /* 로딩 이미지를 중앙에서 빙글빙글 회전시키는 키 프레임 애니메이션을 추가합니다. */
-        @keyframes spin {
-          0% { transform: translate(-50%, -50%) rotate(0deg); }
-          100% { transform: translate(-50%, -50%) rotate(360deg); }
-        }
-        
         /* 로딩 이미지 스타일 */
         .loader img {
           width: 100px; /* 이미지 크기를 조정합니다. */
