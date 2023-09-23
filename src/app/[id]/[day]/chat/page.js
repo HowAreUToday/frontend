@@ -198,6 +198,9 @@ function ClientHome(props) {
 
   const handleGoDaily = async () => {
     try {
+      const loader = document.getElementById("loader");
+      loader.style.display = "block";
+
       const url = `${process.env.NEXT_PUBLIC_BACKEND_URL}data/${id}/${day}/makedaily`;
       const response = await fetch(url, {
         method: "GET",
@@ -218,11 +221,17 @@ function ClientHome(props) {
     } catch (error) {
       console.error("데이터 가져오기 오류:", error);
       throw error; // 오류 처리를 위해 에러를 다시 던집니다.
+    }finally {
+    // 로딩 스피너를 숨깁니다.
+    const loader = document.getElementById("loader");
+    loader.style.display = "none";
     }
   }
 
   return (
     <div className="item--ZNf" id="4:460">
+      <div id="loader" class="loader"></div>
+
       <div className="auto-group-fkst-ANT" id="D9vWPRYgXLcs3ATDcbfkST" >
         <p className="how-are-you-today-Et7" id="4:461" onClick={() => handleHomeClick()}>HOW ARE YOU TODAY?</p>
         <button className="logout-button" onClick={handleGoDaily}>대화종료</button>
