@@ -1,34 +1,60 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Project Title
+
+"How are you Today?"의 챗봇 서버입니다.
+
+[huggingface에 파인튜닝된 요약모델](https://huggingface.co/HowAreYouToday/KoT5-summarization)
 
 ## Getting Started
 
-First, run the development server:
+프로젝트 사용법 입니다.
+
+### Project Download
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+git clone https://github.com/HowAreUToday/tool.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Prerequisites
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+해당 프로젝트는 파이썬 3.8.18 버젼에서 구축됐습니다.
+3.8.18이 아닌 3.8로 명시하여 다운로드시 langchain에서 패키지 관련 에러가 발생할 수 있습니다.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+conda create --name MyProject python==3.8.18
+```
 
-## Learn More
+### Installation and Usage
 
-To learn more about Next.js, take a look at the following resources:
+1. 관련 패키지 다운로드
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pip install -r requirements.txt
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+2. env 파일 설정
 
-## Deploy on Vercel
+openAI에서 발급받은 인증키를 입력하여 주세요.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. 실행
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+python server.py
+```
+
+## License
+
+이 프로젝트의 License관련 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참조하십시오.
+
+## References
+
+이 프로젝트는 중 일부 T5 요약 모델은 paust_pkot팀의 사전학습 모델을 기반으로 학습됐습니다.
+
+- [paust_pkot5_v1](https://github.com/paust-team/pko-t5) by Dennis Park (2022)
+
+## Author & Acknowledgments
+
+프로젝트에 기여한 정하연, 홍순빈, 유찬영님에게 대한 감사의 인사를 표시합니다.
+
+- [정하연](https://hayeon.hashnode.dev/)
+- [홍순빈](mailto:sb.hong0317@gmail.com)
+- [유찬영](http://youngchannel.co.kr/)
