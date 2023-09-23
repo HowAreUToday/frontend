@@ -27,9 +27,9 @@
       display: none;
         /* 로딩 이미지 스타일 */
         .loader img {
-          width: 100px; /* 이미지 크기를 조정합니다. */
-          height: 100px; /* 이미지 크기를 조정합니다. */
-          animation: spin 2s linear infinite; /* 애니메이션 속성을 조정합니다. */
+          width: 200px; /* 이미지 크기를 조정합니다. */
+          height: 200px; /* 이미지 크기를 조정합니다. */
+          animation: spin 10s linear infinite; /* 애니메이션 속성을 조정합니다. */
         }
     }
     
