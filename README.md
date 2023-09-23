@@ -1,6 +1,7 @@
 # Project Title
 
 "How are you Today?"의 프론트 서버입니다.
+기능구현 위주로 페이지 내의 예외처리 부분이 포함되지 않은 상태입니다.
 
 ## Getting Started
 
