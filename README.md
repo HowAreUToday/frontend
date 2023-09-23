@@ -1,7 +1,9 @@
 # Project Title
 
-"How are you Today?"의 프론트 서버입니다.
+"How are you Today?"의 프론트 서버입니다.<br>
 기능구현 위주로 페이지 내의 예외처리 부분이 포함되지 않은 상태입니다.
+
+### [서비스 바로가기](https://www.howareyoutoday.shop)
 
 ## Getting Started
 
