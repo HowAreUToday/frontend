@@ -586,6 +586,7 @@
                 line-height: 1.2125;
                 max-width: 100%;
                 /* 넘치는 텍스트를 숨깁니다. */
+                overflow: hidden;
                 text-overflow: ellipsis;
                 white-space: nowrap;
             }
