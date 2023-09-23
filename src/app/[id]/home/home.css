@@ -584,7 +584,7 @@
                 font-size: 1rem;
                 font-weight: 300;
                 line-height: 1.2125;
-                max-width: 33rem;
+                max-width: 100%;
                 /* 넘치는 텍스트를 숨깁니다. */
                 text-overflow: ellipsis;
                 white-space: nowrap;
