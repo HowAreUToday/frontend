@@ -25,10 +25,16 @@ export default function ClientHome(props) {
     })
       .then((response) => response.json())
       .then((result) => {
+        const aiResponseWithBreaks = result.text.split('\\n').map((line, index) => (
+          <span key={index}>
+            {line}
+            {index !== aiResponse.length - 1 && <br />}
+          </span>
+        ));
         setData({
           day: result.day,
           id: result.id,
-          text: result.text,
+          text: aiResponseWithBreaks,
         });
         console.log(result)
       })
