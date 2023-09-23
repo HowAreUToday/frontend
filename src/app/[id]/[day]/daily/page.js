@@ -25,6 +25,9 @@ export default function ClientHome(props) {
     })
       .then((response) => response.json())
       .then((result) => {
+        if (typeof result.text !== 'string') {
+          throw new Error("결과 텍스트가 문자열이 아닙니다.");
+        }
         const aiResponseWithBreaks = result.text.split('\\n').map((line, index) => (
           <span key={index}>
             {line}
