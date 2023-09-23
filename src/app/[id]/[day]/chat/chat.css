@@ -13,27 +13,28 @@
 
 
 
-    /* CSS로 로딩 스피너 스타일을 지정합니다. */
     .loader {
       position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
       display: none;
+        
+        /* 로딩 이미지를 중앙에서 빙글빙글 회전시키는 키 프레임 애니메이션을 추가합니다. */
+        @keyframes spin {
+          0% { transform: translate(-50%, -50%) rotate(0deg); }
+          100% { transform: translate(-50%, -50%) rotate(360deg); }
+        }
+        
+        /* 로딩 이미지 스타일 */
+        .loader img {
+          width: 100px; /* 이미지 크기를 조정합니다. */
+          height: 100px; /* 이미지 크기를 조정합니다. */
+          animation: spin 2s linear infinite; /* 애니메이션 속성을 조정합니다. */
+        }
     }
     
-    /* 로딩 이미지를 중앙에서 회전시키는 키 프레임 애니메이션을 추가합니다. */
-    @keyframes spin {
-      0% { transform: translate(-50%, -50%) rotate(0deg); }
-      100% { transform: translate(-50%, -50%) rotate(360deg); }
-    }
     
-    /* 로딩 이미지 스타일 */
-    .loader img {
-      width: 50px; /* 이미지 크기 조정 */
-      height: 50px; /* 이미지 크기 조정 */
-      animation: spin 2s linear infinite;
-    }
 
 
     .message-container {
