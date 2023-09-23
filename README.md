@@ -5,20 +5,25 @@
 
 ### [서비스 바로가기](https://www.howareyoutoday.shop)
 
+<br><br><br>
+
 ## Getting Started
 
 프로젝트 사용법 입니다.
+<br>
 
 ### Project Download
 
 ```bash
 git clone https://github.com/HowAreUToday/frontend.git
 ```
+<br>
 
 ### Prerequisites
 
 해당 프로젝트는 NextJS 13 버젼에서 구축됐습니다.
 
+<br>
 
 ### Usage
 
@@ -31,11 +36,13 @@ git clone https://github.com/HowAreUToday/frontend.git
 ```bash
 npm start
 ```
+<br><br><br>
 
 ## License
 
 이 프로젝트의 License관련 자세한 내용은 [LICENSE.md](LICENSE.md) 파일을 참조하십시오.
 
+<br><br><br>
 
 ## Author & Acknowledgments
 
