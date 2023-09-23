@@ -230,7 +230,9 @@ function ClientHome(props) {
 
   return (
     <div className="item--ZNf" id="4:460">
-      <div id="loader" class="loader"></div>
+      <div id="loader" class="loader">
+        <img src="../loding.jpeg" alt="로딩 중...">
+      </div>
 
       <div className="auto-group-fkst-ANT" id="D9vWPRYgXLcs3ATDcbfkST" >
         <p className="how-are-you-today-Et7" id="4:461" onClick={() => handleHomeClick()}>HOW ARE YOU TODAY?</p>
