@@ -7,6 +7,67 @@ import { usePathname, useRouter } from 'next/navigation';
 
 import './daily.css';
 
+const emoticonMap = {
+  0: "😡", // 노여워하는
+  1: "😌", // 느긋
+  2: "😰", // 걱정스러운
+  3: "😳", // 당혹스러운
+  4: "😨", // 당황
+  5: "🤐", // 마비된
+  6: "😊", // 만족스러운
+  7: "😔", // 배신당한
+  8: "😞", // 버려진
+  9: "😳", // 부끄러운
+  10: "😠", // 분노
+  11: "😟", // 불안
+  12: "😢", // 비통한
+  13: "😞", // 상처
+  14: "😤", // 성가신
+  15: "😫", // 스트레스 받는
+  16: "😢", // 슬픔
+  17: "😊", // 신뢰하는
+  18: "😡", // 신이 난
+  19: "😞", // 실망한
+  20: "😈", // 악의적인
+  21: "😤", // 안달하는
+  22: "😌", // 안도
+  23: "😠", // 억울한
+  24: "😞", // 열등감
+  25: "😡", // 염세적인
+  26: "😢", // 외로운
+  27: "😔", // 우울한
+  28: "😞", // 고립된
+  29: "😔", // 좌절한
+  30: "😞", // 후회되는
+  31: "😡", // 혐오스러운
+  32: "😔", // 한심한
+  33: "😊", // 자신하는
+  34: "😄", // 기쁨
+  35: "😤", // 툴툴대는
+  36: "😳", // 남의 시선을 의식하는
+  37: "😕", // 회의적인
+  38: "😞", // 죄책감의
+  39: "😵", // 혼란스러운
+  40: "😰", // 초조한
+  41: "😃", // 흥분
+  42: "😱", // 충격 받은
+  43: "😔", // 취약한
+  44: "😌", // 편안한
+  45: "😤", // 방어적인
+  46: "😠", // 질투하는
+  47: "😨", // 두려운
+  48: "😢", // 눈물이 나는
+  49: "😡", // 짜증내는
+  50: "😳", // 조심스러운
+  51: "😔", // 낙담한
+  52: "😡", // 환멸을 느끼는
+  53: "😢", // 희생된
+  54: "🙏", // 감사하는
+  55: "🤢", // 구역질 나는
+  56: "😫", // 괴로워하는
+  57: "😔", // 가난한, 불우한
+};
+
 //use client
 export default function ClientHome(props) {
   const [data, setData] = useState({});
@@ -36,6 +97,7 @@ export default function ClientHome(props) {
             day: result.day,
             id: result.id,
             text: aiResponseWithBreaks,
+            imoticon: result.imoticon
           });
         } else{
           setData({
@@ -126,7 +188,7 @@ export default function ClientHome(props) {
       </div>
       <div className="group-92-Vz7" id="4:429">
         <div className="auto-group-svvw-Ppb" id="V5p3F4Sg5fKu7a3ykWSVvw">
-          <div className="yy-mm-dd-daily-fXD" id="4:431">{data.day} {data.imoticon}</div>
+          <div className="yy-mm-dd-daily-fXD" id="4:431">{data.day} {emoticonMap[data.imoticon]}</div>
           <div className="group-93-ikP" id="4:457" onClick={() => handleChatAgain()}>chat again</div>
         </div>
         <p className="item--vrT" id="4:432">{data.text}</p>
