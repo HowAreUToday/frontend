@@ -261,7 +261,7 @@ const emoticonMap = {
 
     return data.daily.map((item) => (
       <div className="auto-group-cfqb-NdM" key={item.id} onClick={() => handleItemClick(item)}>
-        <p className="yy-mm-dd-daily-u7V">{item.day} {emoticonMap[item.imoticon]}</p>
+        <p className="yy-mm-dd-daily-u7V">{item.day} {emoticonMap[item.emotion]}</p>
         <p className="item--2xo">{item.text}</p>
       </div>
     ));
