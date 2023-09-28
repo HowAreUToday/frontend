@@ -66,12 +66,13 @@
                 font-size: 1.6rem;
                 font-weight: 800;
                 line-height: 1.2125;
-                margin: 0rem 15.778rem 0.047rem 0rem;
+                margin: 0rem 0.778rem 0.047rem 0rem;
                 text-decoration-line: underline;
                 white-space: nowrap;
             }
 
             .group-93-ikP {
+                margin-left: auto; 
                 align-items: center;
                 background-color: #e2e2e2;
                 border: solid 0.1rem #c2c2c2;

@@ -188,7 +188,8 @@ export default function ClientHome(props) {
       </div>
       <div className="group-92-Vz7" id="4:429">
         <div className="auto-group-svvw-Ppb" id="V5p3F4Sg5fKu7a3ykWSVvw">
-          <div className="yy-mm-dd-daily-fXD" id="4:431">{data.day} {emoticonMap[data.imoticon]}</div>
+          <div className="yy-mm-dd-daily-fXD" id="4:431">{data.day} </div>
+          {emoticonMap[data.imoticon]}
           <div className="group-93-ikP" id="4:457" onClick={() => handleChatAgain()}>chat again</div>
         </div>
         <p className="item--vrT" id="4:432">{data.text}</p>
