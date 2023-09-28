@@ -110,7 +110,7 @@ const emoticonMap = {
       .then((response) => response.json())
       .then((result) => {
         setMemberidId(result.id)
-        consol.log(daily)
+        consol.log(result.daily)
         setData({
           name: result.name,
           mood: result.mood || "상태메세지",
