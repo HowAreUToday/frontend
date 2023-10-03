@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
 
-    padding: 0rem 0rem 3rem 0.12rem;
+    padding: 0rem 0rem 3rem 0.0rem;
     position: relative;
     width: 100%;
 
@@ -66,8 +66,8 @@
             background-color: #ffffff;
             font-family: Inter, 'Source Sans Pro';
             font-size: 1.6rem;
-            font-weight: 900;
-            height: 2.1rem;
+            font-weight: 800;
+            height: 2.8rem;
             line-height: 1.2125;
             white-space: nowrap;
             cursor: pointer;
@@ -648,9 +648,9 @@
         height: 5.5rem;
         justify-content: center;
         line-height: 1.2125;
-        margin-left: 0.3rem;
+        /* margin-left: 0.3rem; */
         white-space: nowrap;
-        width: 35.6rem;
+        width: 30.2rem;
         text-decoration: none !important;
 
         transition: background-color 0.5s ease;
@@ -666,7 +666,7 @@
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
 
     .item--47h {
         background-color: #ffffff;
@@ -694,7 +694,6 @@
         display: flex;
         flex-shrink: 0;
         height: 2.2rem;
-        margin-bottom: 0.rem;
         position: relative;
         width: 100%
     }
@@ -736,7 +735,7 @@
         background-color: #ffffff;
         font-family: Inter, 'Source Sans Pro';
         font-size: 1.1rem;
-        font-weight: 500;
+        font-weight: 400;
         height: 2.2rem;
         line-height: 0.1125;
         white-space: nowrap;
@@ -754,10 +753,9 @@
 
 
     .auto-group-kq2x-anB {
-
         align-items: center;
         /* 가로 중앙 정렬 */
-        justify-content: center;
+        justify-content: flex-start;
         /* 세로 중앙 정렬 */
         align-items: center;
         display: flex;
@@ -770,7 +768,7 @@
     .image-container {
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 4rem;
         height: auto;
         /* 높이를 자동으로 조절하여 내용에 따라 늘어납니다. */
         margin-right: 0rem;
@@ -787,41 +785,37 @@
         object-fit: cover;
     }
 
-    .item--Xqq {
+    .auto-group-tmmz-o99 {
+        align-items: flex-start;
+        /* 위 아래로 정렬 */
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        height: calc(100% - 0.6rem);
+        margin: 0.rem 0;
+    }
+
+    .auto-group-tmmz-o99 .item--Xqq,
+    .auto-group-tmmz-o99 .item--dP5 {
         color: #000000;
         font-family: Avenir Next LT Pro, 'Source Sans Pro';
-        font-size: 1.2rem;
+        font-size: 1.0rem;
         font-weight: 700;
         margin: 0;
         white-space: nowrap;
-        position: absolute;
-        top: 5.5rem;
-        left: 5rem;
-        /* 이미지 사이 간격 조절 */
-        transform: translateY(-50%);
-        /* 수직 가운데 정렬 */
+        position: relative;
+        /* 상대 위치 설정 */
+        left: 0;
+        /* 좌측 정렬을 위해 left 속성 추가 */
     }
 
-    .item--dP5 {
-        color: #000000;
-        font-family: Avenir Next LT Pro, 'Source Sans Pro';
-        font-size: 0.02rem;
+    .auto-group-tmmz-o99 .item--dP5 {
+        font-size: 0.8rem;
+        /* 상태 메시지 폰트 크기 조정 */
         font-weight: 300;
-        margin: 0;
-        white-space: nowrap;
-        position: absolute;
-        top: 6.5rem;
-        left: 5rem;
-
-        /* 이미지 사이 간격 조절 */
-        transform: translateY(50%);
-        /* 수직 가운데 정렬 */
+        top: 0.5rem;
+        /* 이름과 상태 메시지 사이 여백 조정 */
     }
-
-    /* 선택적으로 원하는 여백을 조절하세요. */
-
-
-
 
     .component-Z1q {
 
