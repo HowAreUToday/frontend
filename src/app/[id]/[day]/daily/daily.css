@@ -72,7 +72,7 @@
             }
 
             .group-93-ikP {
-                margin-left: auto; 
+                margin-left: auto;
                 align-items: center;
                 background-color: #e2e2e2;
                 border: solid 0.1rem #c2c2c2;
@@ -127,7 +127,7 @@
     }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1300px) {
     .item--YVD {
         background-color: #ffffff;
         box-sizing: border-box;
@@ -184,6 +184,7 @@
 
     .auto-group-svvw-Ppb {
         align-items: center;
+        position: relative;
         display: flex;
         flex-shrink: 0;
         height: 2.4rem;
@@ -221,8 +222,8 @@
         line-height: 1.2125;
         white-space: nowrap;
         width: 25%;
-        margin-left: 45%;
-
+        right: 0;
+        position: absolute;
     }
 
 
