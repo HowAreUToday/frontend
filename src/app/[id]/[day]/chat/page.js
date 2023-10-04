@@ -62,11 +62,9 @@ function ClientHome(props) {
 
 
   // 메시지를 받을 때마다 스크롤을 아래로 이동
-  const scrollToBottom = () => {
-    if (chatContainerRef.current) {
-      chatContainerRef.current.scrollTop = chatContainerRef.current.scrollHeight;
-    }
-  };
+  function scrollToBottom() {
+    window.scrollTo(0, document.body.scrollHeight);
+  }
 
   // 메시지가 도착할 때마다 scrollToBottom 함수 호출
   useEffect(() => {
